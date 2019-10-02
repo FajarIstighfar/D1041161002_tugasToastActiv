@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="15dp">
+
+        <TextView
+            android:id="@+id/text_header"
+            android:layout_width="423dp"
+            android:layout_height="95dp"
+            android:background="#FBF9F3"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:text="@string/text_header"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/btnTambah"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:background="@color/BiruTeknik"
+            android:text="@string/button_label_count"/>
+
+        <Button
+            android:id="@+id/btnKurang"
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
+            android:background="@color/BiruTeknik"
+            android:text="@string/button_label_toast"
+            />
+
+        <TextView
+            android:id="@+id/showCount"
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:background="#FBF9F3"
+            android:gravity="center"
+            android:text="@string/count_initial_value"
+            android:textSize="180dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

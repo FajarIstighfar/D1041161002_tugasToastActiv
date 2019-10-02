@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">D1041161002_tugasToastActiv</string>
+    <string name="Lanjut">Lanjut</string>
+    <string name="button_label_count">TAMBAH</string>
+    <string name="button_label_toast">KURANG</string>
+    <string name="count_initial_value">0</string>
+    <string name="toast_button_toast">Hello Toast</string>
+    <string name="button_main">LANJUT</string>
+    <string name="text_header">Message Received</string>
+    <string name="button_second">Reply</string>
+    <string name="editText_main">Enter Your Message Here</string>
+    <string name="text_header_reply">Reply Received</string>
+
+</resources>
